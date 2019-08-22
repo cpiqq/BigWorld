@@ -8,3 +8,4 @@ BigWorldClient/obj
 BigWorldClient.sln
 Assembly-CSharp.csproj
 BigWorldClient/.vs
+Assembly-CSharp-Editor.csproj
