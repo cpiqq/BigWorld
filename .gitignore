@@ -2,3 +2,8 @@ BigWorldClient/Library
 BigWorldClient/Temp
 BigWorldClient/Logs
 BigWorldClient/Packages
+BigWorldClient/.idea
+BigWorldClient/Assets/Plugins/Editor/JetBrains
+BigWorldClient/obj
+BigWorldClient.sln
+Assembly-CSharp.csproj
