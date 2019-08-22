@@ -7,3 +7,4 @@ BigWorldClient/Assets/Plugins/Editor/JetBrains
 BigWorldClient/obj
 BigWorldClient.sln
 Assembly-CSharp.csproj
+BigWorldClient/.vs
