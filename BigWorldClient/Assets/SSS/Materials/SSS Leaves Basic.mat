@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SSS Leaves Basic
+  m_Shader: {fileID: 4800000, guid: 9d81d2b770637614d86d5d0a202d255b, type: 3}
+  m_ShaderKeywords: _SSSON_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c15329750bc583f4590b6a2a96c5de13, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 917b25ed0c41b4647bc58ee98b55cf80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseDither:
+        m_Texture: {fileID: 2800000, guid: 5481a0f3dbb58244ebe03102f5d3a302, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseforDither:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSSMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOSize: 1.6
+    - _AOSpread: 1
+    - _AOStrength: 0.852
+    - _BakedAOStrength: 0.572
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FadeAtGlancingAngles: 0
+    - _FadeTowards: 0
+    - _Float0: 0.3
+    - _Float1: 0
+    - _Float2: 1
+    - _FresnelBias: -0.03
+    - _FresnelPower: 1.63
+    - _FresnelScale: 1.67
+    - _GlancingAngleFadeMultiplier: 60.5
+    - _GlancingAngleFadeMultipluer: 15
+    - _GlancingAngleFadePower: 1.77
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _InternalColourPower: 4
+    - _LightWrap: 1
+    - _LightWrapPower: 0.01
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseScale: 0.06
+    - _OcclusionStrength: 1
+    - _OverrideNormalsforStandardLighting: 1
+    - _Parallax: 0.02
+    - _PointLightAttentuationPunch: 1
+    - _PointLightDistance: 0.41
+    - _PointLightPunchthrough: 1
+    - _PointLightSSSDampen: 0.56
+    - _SSSAOStrength: 0.76
+    - _SSSFresnelTranslucency: 1
+    - _SSSLightWrap: 0.842
+    - _SSSMainTranslucency: 0.392
+    - _SSSMultiplier: 4.6
+    - _SSSOn: 1
+    - _SSSPower: 1.73
+    - _SSSScale: 0.44
+    - _SSSWrap: 0.149
+    - _ShadowColourAdd: 0.212
+    - _ShadowStrength: 0.57
+    - _Shininess: 0.448
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SubsurfaceDistortion: 0.796
+    - _SunAOOverride: 0.086
+    - _SunBrightnessBoost: 2.43
+    - _SunPunchthrough: 4.95
+    - _SunSharpness: 3.28
+    - _SunSize: -0.49
+    - _UVSec: 0
+    - _WindSpeed: 0.05
+    - _WindStrength: 0.17
+    - _WrapPower: 0.36
+    - _ZWrite: 1
+    - __dirty: 0
+    - _fadepower: 0.79
+    m_Colors:
+    - _CentrePosition: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.8014706, g: 0.4537738, b: 0.4537738, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 0}
+    - _ColourTint: {r: 0.22188582, g: 0.83823526, b: 0.22613646, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _InternalColour: {r: 0.6967338, g: 0.9632353, b: 0.08499137, a: 0}
+    - _MainColor: {r: 0.3921569, g: 0.3921569, b: 0.3921569, a: 1}
+    - _MainColour: {r: 0.3584559, g: 0.9558824, b: 0.3872972, a: 0}
+    - _SSSColour: {r: 0.737931, g: 1, b: 0, a: 0}
+    - _SpecularColor: {r: 0.3921569, g: 0.3921569, b: 0.3921569, a: 1}
+    - _SpecularColour: {r: 0.78676474, g: 1, b: 0.85882354, a: 1}
+    - _Vector0: {r: 0, g: 0, b: 0, a: 0}
